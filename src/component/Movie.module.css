@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LOTTERIADDAG";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: "GmarketSansMedium";
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "YUniverse-B";
+}
+.intro {
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+.movie_category_list {
+  width: 100vw;
+}
+.movie_category {
+  width: 100%;
+}
+
+.title {
+  color: red;
+  font-size: 3em;
+  margin-left: 0.5em;
+  font-family: "LOTTERIADDAG";
+}
+
+.movie_list {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.single_movie {
+  /* border: solid; */
+  border-color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  padding: 1em;
+  /* margin: 1em; */
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.singleMovie img {
+  margin: auto;
+  align-items: center;
+}
+
+.loading_tag {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+  justify-content: center;
+  /* align-items: center; */
+}

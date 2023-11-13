@@ -1,0 +1,48 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: -1;
+  /* background-attachment: fixed; */
+}
+
+.content_container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5em;
+  background-color: transparent;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.content_container .thumnail {
+  padding: 0 5em 5em 5em;
+}
+.content_container .colum {
+  background-color: black;
+  width: 50%;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
+}
+
+.content_container .colum .intro {
+  box-sizing: border-box;
+  overflow-y: scroll;
+  font-weight: normal;
+}
+
+.loading_tag {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
