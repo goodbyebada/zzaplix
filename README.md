@@ -1,6 +1,6 @@
 ## NETFLIX Clone project
 
-<a href="https://655b544c5ad3630bb61908cc--singular-begonia-8b15c3.netlify.app">Welcome to ZZAPLIX!</a>
+<a href="https://main--zzaplix.netlify.app/">Welcome to ZZAPLIX!</a>
 
 <img width="1440" alt="처음화면" src="https://github.com/goodbyebada/zzaplix/assets/90432681/5ecac08a-6a5f-4b16-91e3-329021cc4ae8">
 <p>처음 화면 입니다.</p>
